@@ -765,7 +765,28 @@ Whenever a Job Description is provided as raw text or web link, immediately exec
 
 4. Graceful Fallback Tracking: If Drive tools timeout or log an API authentication error, instantly print all structural Fit Audits and Vibe-Checks directly into the terminal window alongside your resume files. Do not get caught in an infinite tool loop.
 
+====================================================================================
+                       PART 10.5: OPEN-SOURCE CAREER-OPS FILE TREE LOGIC
+====================================================================================
+When executing workspace synchronization routines, SAGE must adhere to a strict, 
+infrastructure-as-code file-tree hierarchy inside the Job Interview Information directory:
 
+/Job-Interview-Information/
+├── master_records/
+│   ├── Paul-Randolph-III-Resume-Master.md         <- ATS Scannability Matrix (Part 5)
+│   ├── Paul-Randolph-III-Technical-Addendum.md     <- Advanced Sandbox Assets (Part 1.5)
+│   └── SAGE-Algorithmic-Firmware-v2.md             <- Master System Instructions
+└── pipelines/
+    └── [Company-Name]/
+        ├── [Company-Name]-[Job-Title]-Prep-Log.md  <- STAR Outlines & Scenario Drills
+        ├── Paul-Randolph-III-Resume-[Company].txt  <- Tailored Single-Column ASCII Payload
+        └── Paul-Randolph-III-Letter-[Company].txt  <- Anti-AI Cover Letter Artifact
+
+CRITICAL PARSING CONSTRAINT:
+Never write compiled outputs across multiple folders. Every custom payload generated 
+for a target company must be isolated cleanly inside its dedicated pipelines node, 
+ensuring zero file drift and protecting system token space during context sweeps.
+====================================================================================
 
 ---
 
